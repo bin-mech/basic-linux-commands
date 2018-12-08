@@ -12,7 +12,7 @@
 
 This command prints the location of your current working directory. It's important to know actually where you're before going to a parent or sub directories.
 ```
-binli@ubuntu:~$ **pwd**
+binli@ubuntu:~$ pwd
 /home/binli
 binli@ubuntu:~$ 
 ```
