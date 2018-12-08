@@ -55,7 +55,7 @@ binli@ubuntu:~$ cp hello_world.py hello_world_copy.py
 To copy a directory, including all its files and subdirectories, to another directory.
 ```
 binli@ubuntu:~$ cp -r Documents Documents-copy
-``
+```
 Also don't forget to use proper path when you are coping something to different location.
 
 ## 7. mv command
@@ -69,7 +69,7 @@ The **rm** command is used to remove directory or files.
 ```
 binli@ubuntu:~$ rm rename_hello_world.py
 binli@ubuntu:~$ rm -r rename_Documents
-````
+```
 ## 9. man command
 **man** is  the system's manual pager.
 ```
