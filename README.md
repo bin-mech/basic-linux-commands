@@ -6,4 +6,4 @@
 
 (1). *Open* the Dash by clicking the Ubuntu icon in the upper-left, type `terminal`, and select the Terminal application from the results that appear.
 
-(2). Hit the keyboard *shortcut* **Ctrl** + **Alt** + **T **
+(2). Hit the keyboard *shortcut* **Ctrl** + **Alt** + **T**
