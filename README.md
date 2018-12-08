@@ -149,5 +149,5 @@ ubuntu
 binli@ubuntu:~$ hostname -I
 128.xx.xx.xxx
 ```
-References[link][1]
-[1]: https://www.computerhope.com/unix.htm "Title"
+[References][1]
+[1]: https://www.computerhope.com/unix.htm 
