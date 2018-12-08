@@ -44,9 +44,8 @@ You can create a blank file with touch command. As example, use `touch hello_wor
 ```
 binli@ubuntu:~$ touch hello_world.py
 binli@ubuntu:~$ ls
-Desktop   Documents   Downloads
-Pictures  Public      Videos
-hello_world.py
-
+Desktop    Documents    Downloads  hello_world.py
+Pictures   Public       Videos
+```
 ## 5. cp command
 You can copy files and directories with this command. Typical usage is like `cp file_name file_name_copy` or `cp directory_name directory_name_copy`. Also don't forget to use proper path when you are coping something to different location.
