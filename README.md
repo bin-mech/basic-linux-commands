@@ -38,3 +38,6 @@ binli@ubuntu:~$ pwd
 binli@ubuntu:~$ cd /usr/local/share/fonts
 binli@ubuntu:~$ pwd
 /usr/local/share/fonts
+```
+## 5. cp command
+You can copy files and directories with this command. Typical usage is like `cp file_name file_name_copy` or `cp directory_name directory_name_copy`. Also don't forget to use proper path when you are coping something to different location.
