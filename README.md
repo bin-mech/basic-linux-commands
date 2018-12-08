@@ -72,11 +72,11 @@ In general, chmod commands take the form:
 ```
 binli@ubuntu:~$ chmod 755 hello_world.py
 ```
-Here the digits 7, 5, and 4 each individually represent the permissions for the **user**, **group**, and **others**, in that order. Each digit is a combination of the numbers 4, 2, 1, and 0: 
-4 stands for "read",
-2 stands for "write",
-1 stands for "execute", and
-0 stands for "no permission."
+Here the digits 7, 5, and 4 each individually represent the permissions for the **user**, **group**, and **others**, in that order. Each digit is a combination of the numbers 4, 2, 1, and 0:   
+4 stands for "read",  
+2 stands for "write",  
+1 stands for "execute", and  
+0 stands for "no permission."  
 
 ## 9. cp command
 You can copy files and directories with this command. Typical usage is like 
