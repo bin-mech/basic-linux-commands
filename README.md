@@ -7,3 +7,9 @@
 (1). *Open* the Dash by clicking the Ubuntu icon in the upper-left, type `terminal`, and select the Terminal application from the results that appear.
 
 (2). Hit the keyboard *shortcut*: **Ctrl** + **Alt** + **T**
+
+## 2. pwd command
+
+This command prints the location of your current working directory. It's important to know actually where you're before going to a parent or sub directories.
+
+> binli@ubuntu:~$ `pwd
