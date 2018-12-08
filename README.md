@@ -66,7 +66,7 @@ Creates the directory `/home/binli/linux/command/myfiles`. If any of the parent 
 ```
 binli@ubuntu:~$ mkdir -p /home/binli/linux/command/myfiles
 ```
-## 8. chmod
+## 8. chmod command
 The **chmod** command changes the permissions of files or directories. Only the file owner or a privileged user can change the access mode.
 In general, chmod commands take the form:
 ```
