@@ -31,4 +31,10 @@ binli@ubuntu:~$
 ```
 Example, use `ls /usr/bin` to list contents of the **/usr/bin** folder.
 ## 4. cd command
-Assume you're in `/home/binli` directory, you want to go to the `/usr/local/share/fonts` directory, use `cd /usr/local/share/fonts`.
+Assume you are in `/home/binli` directory, you want to go to the `/usr/local/share/fonts` directory, use `cd /usr/local/share/fonts`.
+```
+binli@ubuntu:~$ pwd
+/home/binli
+binli@ubuntu:~$ cd /usr/local/share/fonts
+binli@ubuntu:~$ pwd
+/usr/local/share/fonts
