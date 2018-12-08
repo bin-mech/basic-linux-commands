@@ -16,6 +16,10 @@ binli@ubuntu:~$ pwd
 /home/binli
 binli@ubuntu:~$ 
 ```
+"~" - represent the home folder of the user, conventionally it would be /home/user/, where "user" is the user name can be anything like /home/binli.
+
+"$" - is just a sign of the shell prompt, means that shell is ready to accept commands, you can understand it as a separator after which, you can interact with a shell. Can also be "#" which shows that **root** is the user who's session is going on.
+
 ## 3. ls command
 
 **ls** is one of the  most used basic linux commands, used to **print** contents of a directory, by default it lists contents of current working directory(**pwd**).
