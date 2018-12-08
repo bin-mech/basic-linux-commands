@@ -74,5 +74,4 @@ binli@ubuntu:~$ rm -r rename_Documents
 **man** is  the system's manual pager.
 ```
 binli@ubuntu:~$ man man
-
 ```
