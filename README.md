@@ -7,15 +7,13 @@
 
 (2). Hit the keyboard *shortcut*: **Ctrl** + **Alt** + **T**
 
-## 2. man command
-**man** - an interface to the on-line reference manuals.
+## 2. man & --help command
+To know more about a command and how to use it, use the man command. It shows the manual pages of the command.
+For example, `man man` shows the manual pages of the **man** command. Typing in the command name and 
+the argument help it show which ways the command can be used (e.g., `man --help`)
 ```
-binli@ubuntu:~$ man man
-
-> DESCRIPTION
->   man is the system's manual pager.  Each page argument given to man is normally the name of a program, utility 
->   or function. The manual page  associated with each of these arguments is then found and displayed.  A section, 
->   if provided, will direct man to look only in that section of the manual.  
+binli@ubuntu:~$ man man  
+binli@ubuntu:~$ man --help
 ```
 ## 3. pwd command
 This command prints the location of your current working directory. It's important to know actually where you're before going to a parent or sub directories.
@@ -75,10 +73,10 @@ In general, chmod commands take the form:
 binli@ubuntu:~$ chmod 755 hello_world.py
 ```
 Here the digits 7, 5, and 4 each individually represent the permissions for the **user**, **group**, and **others**, in that order. Each digit is a combination of the numbers 4, 2, 1, and 0:   
-4 stands for "read",  
-2 stands for "write",  
-1 stands for "execute", and  
-0 stands for "no permission."  
+**4** stands for **"read"**,  
+**2** stands for **"write"**,  
+**1** stands for **"execute"**, and  
+**0** stands for **"no permission"**.  
 
 ## 9. cp command
 You can copy files and directories with this command. Typical usage is like 
@@ -103,7 +101,53 @@ The **rm** command is used to remove directory or files.
 binli@ubuntu:~$ rm rename_hello_world.py
 binli@ubuntu:~$ rm -r rename_Documents
 ```
+## 12. vi command
+To edit a file named helle_world.py, use the command:
+```
+binli@ubuntu:~$ vi rename_hello_world.py
+```
+to insert text, first move the cursor to the position where you want to insert (text is inserted before the cursor),
+then **press** `i` . After that save your changes by **press** the **Esc** key then type `:wq`. If you do not want to save 
+the changes type `:q!` instead. For more information search on Google.
 
-
-
-
+## 13. sudo command
+**sudo** stands for **"SuperUser Do"**. So, if you want any command to be done with administrative 
+or root privileges, you can use the sudo command. For example, if you want to edit a file like viz. 
+**/etc/init/network-manager.conf**, which needs root permissions, you can use the command 
+```
+binli@ubuntu:~$ sudo vi /etc/init/network-manager.conf
+```
+## 14. apt-get command 
+Use apt-get to install packages. This requires root privileges, so use the sudo command with it.
+For example, if you want to install the text editor vim, we can type in the command 
+```
+binli@ubuntu:~$ sudo apt-get install vim”
+```
+Similarly, any exist packages can be installed like this. It is good to **update your repository** each time you try to **install a new package**. 
+You can do that by typing 
+```
+binli@ubuntu:~$ sudo apt-get update
+binli@ubuntu:~$ sudo apt-get upgrade
+binli@ubuntu:~$ sudo apt-get remove
+```
+or typing
+```
+binli@ubuntu:~$ sudo apt-get update
+binli@ubuntu:~$ sudo apt-get dist-upgrade
+```
+The command `apt-cache search` is used to search for a package. If you want to search for one, you can type in `apt-cache search vim` (this doesn't require root).
+## 15. more command
+Displays text, one screen at a time.
+```
+binli@ubuntu:~$ more /etc/init/network-manager.conf
+```
+## 16. hostname command
+Use hostname to know your name in your host or network. Basically, it displays your hostname and IP address. 
+```
+binli@ubuntu:~$ hostname
+ubuntu
+binli@ubuntu:~$ hostname -I
+128.xx.xx.xxx
+```
+References[link][1]
+[1]: https://www.computerhope.com/unix.htm "Title"
