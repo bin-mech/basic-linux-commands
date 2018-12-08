@@ -34,5 +34,5 @@ Desktop   Documents   Downloads
 Pictures  Public      Videos
 binli@ubuntu:~$ 
 ```
-Example, use `ls /usr/bin` to list contents of the */usr/bin* folder.
+Example, use `ls /usr/bin` to list contents of the **/usr/bin** folder.
 ## 4. cd command
