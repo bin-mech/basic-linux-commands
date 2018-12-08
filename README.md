@@ -12,8 +12,10 @@
 ```
 binli@ubuntu:~$ man man
 
-DESCRIPTION
-   man is the system's manual pager.  Each page argument given to man is normally the name of a program, utility or function.  The manual page  associated with each of these arguments is then found and displayed.  A section, if provided, will direct man to look only in that section of the manual.  
+> DESCRIPTION
+>   man is the system's manual pager.  Each page argument given to man is normally the name of a program, utility 
+>   or function. The manual page  associated with each of these arguments is then found and displayed.  A section, 
+>   if provided, will direct man to look only in that section of the manual.  
 ```
 ## 3. pwd command
 This command prints the location of your current working directory. It's important to know actually where you're before going to a parent or sub directories.
