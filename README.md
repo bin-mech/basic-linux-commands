@@ -47,5 +47,32 @@ binli@ubuntu:~$ ls
 Desktop    Documents    Downloads  hello_world.py
 Pictures   Public       Videos
 ```
-## 5. cp command
-You can copy files and directories with this command. Typical usage is like `cp file_name file_name_copy` or `cp directory_name directory_name_copy`. Also don't forget to use proper path when you are coping something to different location.
+## 6. cp command
+You can copy files and directories with this command. Typical usage is like 
+```
+binli@ubuntu:~$ cp hello_world.py hello_world_copy.py
+```
+To copy a directory, including all its files and subdirectories, to another directory.
+```
+binli@ubuntu:~$ cp -r Documents Documents-copy
+``
+Also don't forget to use proper path when you are coping something to different location.
+
+## 7. mv command
+The **mv** command is used to move or rename directories and files.
+```
+binli@ubuntu:~$ mv hello_world.py rename_hello_world.py
+binli@ubuntu:~$ mv Documents-copy rename_Documents
+```
+## 8. rm command
+The **rm** command is used to remove directory or files.
+```
+binli@ubuntu:~$ rm rename_hello_world.py
+binli@ubuntu:~$ rm -r rename_Documents
+````
+## 9. man command
+**man** is  the system's manual pager.
+```
+binli@ubuntu:~$ man man
+
+```
