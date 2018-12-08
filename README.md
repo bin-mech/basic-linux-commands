@@ -39,5 +39,8 @@ binli@ubuntu:~$ cd /usr/local/share/fonts
 binli@ubuntu:~$ pwd
 /usr/local/share/fonts
 ```
+## 5. touch command
+You can create a blank file with touch command. As example, use `touch hello_world.py` to create a blank `hello_world.py` file under the your home directory.
+
 ## 5. cp command
 You can copy files and directories with this command. Typical usage is like `cp file_name file_name_copy` or `cp directory_name directory_name_copy`. Also don't forget to use proper path when you are coping something to different location.
