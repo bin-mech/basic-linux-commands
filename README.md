@@ -13,3 +13,18 @@
 This command prints the location of your current working directory. It's important to know actually where you're before going to a parent or sub directories.
 
 > binli@ubuntu:~$ `pwd`
+> /home/binli
+> binli@ubuntu:~$ 
+
+## 3. ls command
+
+**ls** is one of the  most used basic linux commands, used to **print** contents of a directory, by default it lists contents of current working directory(**pwd**).
+> binli@ubuntu:~$ `ls`
+> Desktop
+> Documents
+> Downloads
+> Pictures
+> Public
+> Videos
+> 
+> binli@ubuntu:~$ 
